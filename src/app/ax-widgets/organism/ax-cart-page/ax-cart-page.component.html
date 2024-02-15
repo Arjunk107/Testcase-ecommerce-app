@@ -1,0 +1,7 @@
+<app-ax-navbar></app-ax-navbar>
+<ng-container *ngFor="let datas of cartdetails">
+    <ng-container *ngIf="datas.userid == id">
+        <app-ax-cart-card [content]="datas.details" [title]="datas.name" [imgurl]="datas.img" [prize]="datas.prize"
+            [proId]="datas.id"></app-ax-cart-card>
+    </ng-container>
+</ng-container>

@@ -1,0 +1,45 @@
+@import'../../../../assets/colors/color';
+@import'../../../../assets/mixins/mixin';
+
+.navbar {
+    &__li {
+        display: inline;
+        line-height: 80px;
+        margin: 0 18px;
+        padding: 10px;
+    }
+
+    &__a {
+        text-decoration: none;
+        color: $white;
+        font-size: 17px;
+        text-transform: uppercase;
+        padding: 7px 5px;
+        border-radius: 3px;
+    }
+
+    &__i {
+        font-size: 20px;
+        color: $white;
+    }
+}
+
+.navbar__li:hover {
+    background-color: $light-blue;
+    transition: 0.5s;
+}
+
+@include mobile {
+    .navbar__li {
+        display: block;
+    }
+
+    .navbar__a {
+        font-size: 20px;
+    }
+
+    .navbar__a:hover {
+        background: none;
+        color: #0082e6;
+    }
+}

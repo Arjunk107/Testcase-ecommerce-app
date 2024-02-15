@@ -1,0 +1,22 @@
+<div class="login container">
+    <div class="login__card">
+        <h1 class="login__card__h1">Login</h1>
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit(loginForm)">
+            <div class="login__card__inputbox">
+                <app-ax-input [plcholder]="'email'" [name]="'email'" [formcontrolname]="'email'" [type]="'text'"
+                    [formgrup]="loginForm" [iclass]="'bx bxs-user logcard__icon'" [type]="'text'"></app-ax-input>
+            </div>
+            <div class="login__card__inputbox">
+                <app-ax-input [plcholder]="'password'" [name]="'password'" [formcontrolname]="'password'"
+                    [type]="'password'" [formgrup]="loginForm" [type]="'password'"
+                    [iclass]="'bx bxs-lock-alt logcard__icon'"></app-ax-input>
+            </div>
+
+            <button type=" submit" class="login__card__btn">Submit</button>
+        </form>
+        <div class="login__card__register">
+            <p>Don't have an account?<a href="/signup" class="login__card__a">Register</a></p>
+        </div>
+
+    </div>
+</div>

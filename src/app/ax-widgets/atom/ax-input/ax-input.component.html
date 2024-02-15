@@ -1,0 +1,6 @@
+<div [formGroup]="formgrup" class="logcard">
+    <input [type]="type" [placeholder]="plcholder" [name]="name" [formControlName]="formcontrolname" [type]="type"
+        class="logcard__input" [ngClass]=" {'invalid': formgrup.get(formcontrolname)?.touched &&
+        formgrup.get(formcontrolname)?.invalid}">
+    <i [class]='iclass' id="icon"></i>
+</div>

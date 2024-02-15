@@ -1,0 +1,19 @@
+<div class="cntt">
+    <div class="cartcard">
+        <div class="cartcard__right">
+            <img [src]="imgurl" alt="" srcset="">
+        </div>
+        <div class="cartcard__left">
+            <div class="cartcard__left__title">
+                <h3>{{title}}</h3>
+            </div>
+            <div class="cartcard__left__content">
+                <p class="cartcard__left__cont">{{content}}</p>
+                <p class="cartcard__left__p">{{prize}}</p>
+            </div>
+            <div class="cartcard__left__delete">
+                <button type="button" (click)="onDelete(proId)">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,320 @@
+{
+  "users": [
+    {
+      "id": 6,
+      "name": "arjun",
+      "email": "arjnnk@gmail.com",
+      "phonenumber": "7899076584",
+      "password": "afsdfsdfsf"
+    },
+    {
+      "name": "abisheksd",
+      "email": "abhishek@gmail.com",
+      "phonenumber": "9088976871",
+      "password": "abhisek@123",
+      "id": 7
+    },
+    {
+      "name": "Samuel",
+      "email": "james@gmail.com",
+      "phonenumber": "9088681842",
+      "password": "Jmaesd234",
+      "id": 8
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "item": "mobile",
+      "name": "Samsung 24 ultra",
+      "details": "12Gb 512GB Titanium Grey",
+      "prize": "Rs 1,42,000/-",
+      "img": "../../../../assets/images/samsung24.webp"
+    },
+    {
+      "id": 2,
+      "item": "mobile",
+      "name": "IPhone 15 pro",
+      "details": "8Gb 512GB Titanium Grey",
+      "prize": "Rs 1,12,000/-",
+      "img": "../../../../assets/images/iphone15.webp"
+    },
+    {
+      "id": 3,
+      "item": "mobile",
+      "name": "Samsung 23 ultra",
+      "details": "8Gb 512GB Titanium Grey",
+      "prize": "Rs 1,18,000/-",
+      "img": "../../../../assets/images/samsungs23.webp"
+    },
+    {
+      "id": 4,
+      "item": "tv",
+      "name": "Sony TV",
+      "details": "42 Inch OLED",
+      "prize": "Rs 48,000/-",
+      "img": "../../../../assets/images/tv.webp"
+    },
+    {
+      "id": 5,
+      "item": "mobile",
+      "name": "Galaxy S21 FE",
+      "details": "5G Snapdragon 888, 128GB, 8GB RAM",
+      "prize": "Rs 38,000/-",
+      "img": "../../../../assets/images/samsung21fe.webp"
+    },
+    {
+      "id": 6,
+      "item": "tablet",
+      "name": "REDMI Pad 6",
+      "details": "6GB RAM, 128GB ROM, 10.61 Inch",
+      "prize": "Rs 15,000/-",
+      "img": "../../../../assets/images/redmipad6.webp"
+    },
+    {
+      "id": 7,
+      "item": "tablet",
+      "name": "OPPO Pad Air",
+      "details": "4GB RAM, 128GB ROM, 10.36 inch",
+      "prize": "Rs 13,499/-",
+      "img": "../../../../assets/images/oppopad.webp"
+    },
+    {
+      "id": 8,
+      "item": "tv",
+      "name": "iFFALCON LED ",
+      "details": "(32 inch) HD Ready LED Smart Android TV",
+      "prize": "Rs 7,999/-",
+      "img": "../../../../assets/images/iffalcon.webp"
+    },
+    {
+      "id": 9,
+      "item": "laptop",
+      "name": "ASUS Vivobook 15",
+      "details": "Intel Core i3 11th Gen,8 GB/512 GB SSD",
+      "prize": "Rs 31,990/-",
+      "img": "../../../../assets/images/asusvivobook.webp"
+    },
+    {
+      "id": 10,
+      "item": "mobile",
+      "name": "OnePlus Nord CE 3",
+      "details": "5G, Chromatic Gray, 128 GB, 8GB RAM",
+      "prize": "Rs 18,998/-",
+      "img": "../../../../assets/images/oneplusnode.webp"
+    },
+    {
+      "id": 11,
+      "item": "mobile",
+      "name": "Motorola Edge 40 Neo",
+      "details": "Soothing Sea, 128 GB, 8 GB RAM",
+      "prize": "Rs 22,999/-",
+      "img": "../../../../assets/images/motorolaedge.webp"
+    },
+    {
+      "id": 12,
+      "item": "tv",
+      "name": "Mi A series",
+      "details": "32 inch HD Ready LED Smart Google TV",
+      "prize": "Rs 12,999/-",
+      "img": "../../../../assets/images/miaseries.webp"
+    },
+    {
+      "id": 13,
+      "item": "laptop",
+      "name": "HP 15s",
+      "details": "Intel Core i3 12th Gen 1215U -(8 GB/512 GB SSD)",
+      "prize": "Rs 37,490/-",
+      "img": "../../../../assets/images/hp15s.webp"
+    },
+    {
+      "id": 14,
+      "item": "laptop",
+      "name": "SAMSUNG Galaxy Book 2",
+      "details": "Intel Core i5 12th Gen 1235U -(8 GB/512 GB SSD)",
+      "prize": "Rs 44,990/-",
+      "img": "../../../../assets/images/samsunggalaxybook3.webp"
+    },
+    {
+      "id": 15,
+      "item": "tablet",
+      "name": "Apple iPad (10th Gen)",
+      "details": "64 GB ROM 10.9 inch",
+      "prize": "Rs 37,499/-",
+      "img": "../../../../assets/images/appleipad10.webp"
+    },
+    {
+      "id": 16,
+      "item": "tv",
+      "name": "SONY Bravia",
+      "details": "(43 inch) Ultra HD (4K) LED Smart Google TV",
+      "prize": "Rs 37,490/-",
+      "img": "../../../../assets/images/sonybravia.webp"
+    },
+    {
+      "id": 17,
+      "item": "laptop",
+      "name": "HP Pavilion",
+      "details": "Intel Core i5 12th Gen 1235U - (16 GB/1 TB SSD)",
+      "prize": "Rs 66,990/-",
+      "img": "../../../../assets/images/hppavilion.webp"
+    },
+    {
+      "id": 18,
+      "item": "mobile",
+      "name": "realme 12 Pro",
+      "details": "Navigator Beige, 256GB, 8GB RAM",
+      "prize": "Rs 26,990/-",
+      "img": "../../../../assets/images/realme12pro.webp"
+    },
+    {
+      "id": 19,
+      "item": "mobile",
+      "name": "vivo T2 Pro",
+      "details": "New Moon Black, 256 GB, 8GB RAM",
+      "prize": "Rs 24,999/-",
+      "img": "../../../../assets/images/vivot2pro.webp"
+    },
+    {
+      "id": 20,
+      "item": "laptop",
+      "name": "DELL ",
+      "details": "Intel Core i3 12th Gen 1215U-(8 GB/512 GB SSD)",
+      "prize": "Rs 34,370/-",
+      "img": "../../../../assets/images/dell.webp"
+    },
+    {
+      "id": 21,
+      "item": "laptop",
+      "name": "Lenovo IdeaPad Slim 3",
+      "details": "Intel Core i5 11th Gen 1155G7-(8 GB/512 GB SSD)",
+      "prize": "Rs 44,500/-",
+      "img": "../../../../assets/images/lenovaideapad.webp"
+    },
+    {
+      "id": 22,
+      "item": "tv",
+      "name": "SAMSUNG Crystal 4K",
+      "details": "(55 inch) Ultra HD (4K) LED Smart Tizen TV",
+      "prize": "Rs 42,990/-",
+      "img": "../../../../assets/images/samsungcrystal.webp"
+    },
+    {
+      "id": 23,
+      "item": "tablet",
+      "name": "realme Pad X",
+      "details": "6GB RAM, 128GB ROM, 11 inch Tablet (Glacier Blue)",
+      "prize": "Rs 27,999/-",
+      "img": "../../../../assets/images/realmepadx.webp"
+    },
+    {
+      "id": 24,
+      "item": "mobile",
+      "name": "Nothing Phone 2",
+      "details": "Dark Grey, 512 GB, 12 GB RAM",
+      "prize": "Rs 39,999/-",
+      "img": "../../../../assets/images/nothingphone2.webp"
+    },
+    {
+      "id": 25,
+      "item": "mobile",
+      "name": "Apple iPhone 13",
+      "details": "128GB ROM, Super Retina XDR Display",
+      "prize": "Rs 52,999/-",
+      "img": "../../../../assets/images/appleiphone13.webp"
+    },
+    {
+      "id": 26,
+      "item": "mobile",
+      "name": "Apple iPhone 12",
+      "details": "64GB ROM, Super Retina XDR Display",
+      "prize": "Rs 44,999/-",
+      "img": "../../../../assets/images/appleiphone12.webp"
+    },
+    {
+      "id": 27,
+      "item": "laptop",
+      "name": "ASUS TUF Gaming F15",
+      "details": "90WHr Battery Intel Core i5 11thGen 11400H-(16GB/516GB SSD)",
+      "prize": "Rs 59,990/-",
+      "img": "../../../../assets/images/asustufgaming.webp"
+    },
+    {
+      "id": 28,
+      "item": "tv",
+      "name": "SAMSUNG Crystal 4K Neo",
+      "details": "(43 inch) Ultra HD (4K) LED Smart Tizen TV",
+      "prize": "Rs 29,490/-",
+      "img": "../../../../assets/images/samsungcrystalneo.webp"
+    },
+    {
+      "id": 29,
+      "item": "tablet",
+      "name": "Apple iPad Air 5",
+      "details": "256 GB ROM, (10.9 Inch) Display",
+      "prize": "Rs 72,499/-",
+      "img": "../../../../assets/images/appleipadair5.webp"
+    },
+    {
+      "id": 30,
+      "item": "tablet",
+      "name": "SAMSUNG Galaxy Tab A8",
+      "details": "4GB RAM, 64GB ROM, 10.5 inch Tablet (Pink Gold)",
+      "prize": "Rs 25,191/-",
+      "img": "../../../../assets/images/samsunggalaxytab3.webp"
+    },
+    {
+      "id": 31,
+      "item": "mobile",
+      "name": "OPPO Reno11 5G ",
+      "details": "Rock Grey, 256GB, 8GB RAM",
+      "prize": "Rs 31,999/-",
+      "img": "../../../../assets/images/opporeno11.webp"
+    },
+    {
+      "id": 32,
+      "item": "tv",
+      "name": "Sony TV",
+      "details": "42 Inch OLED",
+      "img": "../../../../assets/images/tv.webp"
+    }
+  ],
+  "cart": [
+    {
+      "id": 2,
+      "item": "mobile",
+      "name": "Samsung 24 ultra",
+      "details": "12Gb 512GB Titanium Grey",
+      "prize": "Rs 1,42,000/-",
+      "img": "../../../../assets/images/samsung24.webp",
+      "userid": "7"
+    },
+    {
+      "id": 3,
+      "item": "tv",
+      "name": "Sony TV",
+      "details": "42 Inch OLED",
+      "prize": "Rs 48,000/-",
+      "img": "../../../../assets/images/tv.webp",
+      "userid": "7"
+    },
+    {
+      "id": 4,
+      "item": "mobile",
+      "name": "IPhone 15 pro",
+      "details": "8Gb 512GB Titanium Grey",
+      "prize": "Rs 1,12,000/-",
+      "img": "../../../../assets/images/iphone15.webp",
+      "userid": "7"
+    },
+    {
+      "id": 16,
+      "item": "tv",
+      "name": "SONY Bravia",
+      "details": "(43 inch) Ultra HD (4K) LED Smart Google TV",
+      "prize": "Rs 37,490/-",
+      "img": "../../../../assets/images/sonybravia.webp",
+      "userid": "8"
+    }
+  ]
+}

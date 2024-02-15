@@ -1,0 +1,33 @@
+<app-ax-navbar></app-ax-navbar>
+<div class="container">
+    <div class="container__card">
+        <div class="container__card__content">
+            <img src="https://i.imgur.com/stD0Q19.jpg" width="100" class="container__card__img">
+            <h3 class="mt-2">{{userdetails.name}}</h3>
+            <div class="container__card__form">
+                <form [formGroup]="updateForm" (ngSubmit)="onUpdatesubmit()">
+                    <div class="container__card__input">
+                        <label>name:</label>
+                        <app-ax-input [name]="'name'" [formcontrolname]="'name'" [type]="'text'" [formgrup]="
+                            updateForm" [plcholder]="'Name'" [type]="'text'"></app-ax-input>
+                    </div>
+                    <div class="container__card__input">
+                        <label>Email:</label>
+                        <app-ax-input [name]="'email'" [formcontrolname]="'email'" [type]="'text'"
+                            [formgrup]="updateForm" [plcholder]="'Email'" [type]="'text'"></app-ax-input>
+                    </div>
+                    <div class="container__card__input">
+                        <label>phone:</label>
+                        <app-ax-input [name]="'phonenumber'" [formcontrolname]="'phonenumber'" [type]="'text'"
+                            [plcholder]="'phone number'" [formgrup]="updateForm" [type]="'text'"></app-ax-input>
+                    </div>
+                    <div class="container__card__btns">
+                        <button type="submit" class="container__card__btn">Submit</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>

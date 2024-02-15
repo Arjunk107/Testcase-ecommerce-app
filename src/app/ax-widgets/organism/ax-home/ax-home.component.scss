@@ -1,0 +1,41 @@
+@import'../../../../assets/mixins/mixin';
+
+.homecontainer {
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    &__filterbtn {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        padding: 0px 15px;
+
+        &__h1 {
+            text-transform: capitalize;
+        }
+
+        &__btn {
+            height: 30px;
+            background: none;
+            border: 2px solid violet;
+            padding: 4px 9px;
+            font-size: 15px;
+            border-radius: 20px;
+        }
+    }
+
+    &__products {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
+
+@include mobile {
+    .homecontainer__filterbtn__h1 {
+        font-size: 23px;
+    }
+}

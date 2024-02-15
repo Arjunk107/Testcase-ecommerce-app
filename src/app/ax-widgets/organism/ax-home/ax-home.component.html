@@ -1,0 +1,31 @@
+<app-ax-navbar></app-ax-navbar>
+<div class="homecontainer">
+    <div class="homecontainer__filterbtn">
+        <h1 class="homecontainer__filterbtn__h1">{{selectval}} Products</h1>
+        <select [(ngModel)]="selectval" class="homecontainer__filterbtn__btn">
+            <option value="all">All</option>
+            <option value="mobile">Mobile</option>
+            <option value="tablet">Tablet</option>
+            <option value="laptop">Laptop</option>
+            <option value="tv">TV</option>
+        </select>
+
+    </div>
+    <div class="homecontainer__products">
+        <ng-container *ngFor="let datas of prodctdetails">
+            <!-- <h2>{{datas.item}}</h2> -->
+            <ng-container *ngIf="selectval == 'all';">
+                <app-ax-card [details]="datas.details" [title]="datas.name" [cartid]="datas.id" [prize]="datas.prize"
+                    [img]="datas.img"></app-ax-card>
+            </ng-container>
+            <ng-container *ngIf="datas.item === selectval;">
+                <app-ax-card [details]="datas.details" [title]="datas.name" [cartid]="datas.id" [prize]="datas.prize"
+                    [img]="datas.img"></app-ax-card>
+
+            </ng-container>
+
+        </ng-container>
+    </div>
+
+</div>
+<app-ax-footer></app-ax-footer>

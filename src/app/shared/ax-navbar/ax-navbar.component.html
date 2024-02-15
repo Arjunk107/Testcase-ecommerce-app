@@ -1,0 +1,18 @@
+<nav class="navbar">
+    <input type="checkbox" name="check" id="check" class="navbar__checkbox">
+    <label for="check">
+        <i class='bx bx-menu navbar__check'></i>
+    </label>
+    <label class="navbar__logo">ecom app</label>
+    <ul class="navbar__ul">
+
+        <app-ax-menu-li [class]="'navbar__li'" [aclass]="'navbar__a'" [data]="'Home'" [iclass]="'bx bxs-home navbar__i'"
+            [link]="'/home/'+id"></app-ax-menu-li>
+        <app-ax-menu-li [class]="'navbar__li'" [aclass]="'navbar__a'" [data]="'Cart'" [iclass]="'bx bx-cart navbar__i'"
+            [link]="'/cart/'+id"></app-ax-menu-li>
+        <app-ax-menu-li [class]="'navbar__li'" [aclass]="'navbar__a'" [data]="'profile'"
+            [iclass]="'bx bx-user-circle navbar__i'" [link]="'/profile/'+id"></app-ax-menu-li>
+        <app-ax-menu-li [class]="'navbar__li'" [aclass]="'navbar__a'" [data]="'Logout'"
+            [iclass]="'bx bx-log-out navbar__i'" [link]="''"></app-ax-menu-li>
+    </ul>
+</nav>

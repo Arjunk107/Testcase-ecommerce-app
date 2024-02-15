@@ -1,0 +1,27 @@
+<div class="signup container">
+    <div class="signup__card">
+        <h1 class="signup__card__h1">Signup</h1>
+        <form [formGroup]="signupForm" (ngSubmit)="signupSubmit(signupForm)">
+            <div class="signup__card__inputbox">
+                <app-ax-input [plcholder]="'name'" [name]="'name'" [formcontrolname]="'name'" [type]="'text'"
+                    [formgrup]="signupForm"></app-ax-input>
+            </div>
+            <div class="signup__card__inputbox">
+                <app-ax-input [plcholder]="'email'" [name]="'email'" [formcontrolname]="'email'" [type]="'text'"
+                    [formgrup]="signupForm"></app-ax-input>
+            </div>
+            <div class="signup__card__inputbox">
+                <app-ax-input [plcholder]="'phonenumber'" [name]="'phonenumber'" [formcontrolname]="'phonenumber'"
+                    [type]="'text'" [formgrup]="signupForm"></app-ax-input>
+            </div>
+            <div class="signup__card__inputbox">
+                <app-ax-input [plcholder]="'password'" [name]="'password'" [formcontrolname]="'password'"
+                    [type]="'password'" [formgrup]="signupForm"></app-ax-input>
+            </div>
+            <button type="submit" class="signup__card__btn">Submit</button>
+        </form>
+        <div class="signup__card__register">
+            <p>Already have acoount?<a href="" class="signup__card__a">Login</a></p>
+        </div>
+    </div>
+</div>
